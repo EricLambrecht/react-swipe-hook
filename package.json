@@ -1,6 +1,6 @@
 {
   "name": "react-swipe-hook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A hook for running callbacks on swipe",
   "main": "dist/useSwipeCallback.js",
   "types": "dist/useSwipeCallback.d.ts",
