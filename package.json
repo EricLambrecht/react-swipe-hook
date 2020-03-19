@@ -1,12 +1,11 @@
 {
   "name": "react-swipe-hook",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A hook for running callbacks on swipe",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "npm run test:unit && npm run test:integration",
-    "test:unit": "jest src",
+    "test": "npm run test:integration",
     "test:integration": "rimraf \"./tmp\" && npm run build && jest integration-tests",
     "commit": "git-cz",
     "prettier:check": "prettier --list-different \"{src,integration-tests}/**/*.{ts,tsx}\"",
@@ -29,7 +28,7 @@
   },
   "homepage": "https://github.com/EricLambrecht/react-swipe-hook#readme",
   "devDependencies": {
-    "@shopify/jest-dom-mocks": "^2.8.10",
+    "@testing-library/jest-dom": "^5.1.1",
     "@testing-library/react": "^9.5.0",
     "@testing-library/react-hooks": "^3.2.1",
     "@types/jest": "^24.9.1",
@@ -41,11 +40,11 @@
     "emoji-cz": "^0.3.1",
     "jest": "^24.9.0",
     "prettier": "1.18.2",
-    "replace": "^1.1.5",
-    "rimraf": "^3.0.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-test-renderer": "^16.13.0",
+    "replace": "^1.1.5",
+    "rimraf": "^3.0.2",
     "standard-version": "^7.1.0",
     "ts-jest": "^24.3.0",
     "typescript": "^3.8.3"
