@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "umd",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "outDir": "./.tmp",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "node_modules"
+  ]
+}
