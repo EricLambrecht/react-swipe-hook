@@ -2,8 +2,8 @@
   "name": "react-swipe-hook",
   "version": "0.1.0",
   "description": "A hook for running callbacks on swipe",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/useSwipeCallback.js",
+  "types": "dist/useSwipeCallback.d.ts",
   "scripts": {
     "test": "npm run test:integration",
     "test:integration": "rimraf \"./tmp\" && npm run build && jest integration-tests",
